@@ -203,6 +203,7 @@ main .grid__container .section__grid .grid__section-1 .row__1 .col__md-6 img {
   main .grid__container .section__grid .grid__section-1 .row__1 .col__md-6 img {
     -o-object-fit: cover;
        object-fit: cover;
+    width: 100%;
     height: min(270px, 100%);
   }
 }
