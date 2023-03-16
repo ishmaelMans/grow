@@ -47,6 +47,12 @@ header .nav .nav__fixed .nav__container {
     margin: 0 auto;
   }
 }
+@media (max-width: 768px) {
+  header .nav .nav__fixed .nav__container {
+    width: min(650px, 100%);
+    margin: 0 auto;
+  }
+}
 header .nav .nav__fixed .nav__container .logo__menu-container {
   display: flex;
   justify-content: center;
@@ -570,28 +576,25 @@ footer .grid__container {
   grid-gap: 5px;
   position: relative;
   margin: 0 auto;
-  padding: 20px 20px;
+  padding: 20px 0;
   overflow: hidden;
 }
 @media (max-width: 1200px) {
   footer .grid__container {
     width: min(1110px, 100%);
     margin: 0 auto;
-    padding: 0 40px;
   }
 }
 @media (max-width: 992px) {
   footer .grid__container {
-    width: min(850px, 100%);
+    width: min(750px, 100%);
     margin: 0 auto;
-    padding: 0 40px;
   }
 }
 @media (max-width: 768px) {
   footer .grid__container {
-    width: 500px;
+    width: min(650px, 100%);
     margin: 0 auto;
-    padding: 0 20px;
     grid-template-columns: 1/2;
   }
 }
