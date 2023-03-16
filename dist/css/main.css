@@ -203,8 +203,8 @@ main .grid__container .section__grid .grid__section-1 .row__1 .col__md-6 img {
   main .grid__container .section__grid .grid__section-1 .row__1 .col__md-6 img {
     -o-object-fit: cover;
        object-fit: cover;
-    width: 100%;
-    height: min(270px, 100%);
+    width: min(720px, 100%);
+    height: min(450px, 100%);
   }
 }
 main .grid__container .section__grid .grid__section-1 .row__1 .col__md-6 .post__body {
@@ -727,7 +727,7 @@ footer .grid__container {
 }
 @media (max-width: 768px) {
   footer .grid__container {
-    width: 500px;
+    width: min(500px, 100%);
     margin: 0 auto;
     padding: 0 20px;
     grid-template-columns: 1/2;

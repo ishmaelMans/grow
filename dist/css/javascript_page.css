@@ -589,7 +589,7 @@ footer .grid__container {
 }
 @media (max-width: 768px) {
   footer .grid__container {
-    width: 500px;
+    width: min(500px, 100%);
     margin: 0 auto;
     padding: 0 20px;
     grid-template-columns: 1/2;
