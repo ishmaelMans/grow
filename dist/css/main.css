@@ -162,10 +162,10 @@ main .grid__container {
   }
 }
 main .grid__container a {
-  font-size: clamp(1.1rem, 2.5vw, 1rem);
+  font-size: clamp(1rem, 2.5vw, 1rem);
 }
 main .grid__container h2 {
-  font-size: clamp(1.4rem, 2.5vw, 1.78rem);
+  font-size: clamp(1.2rem, 2.5vw, 1.78rem);
 }
 main .grid__container .section__grid {
   margin-top: 40px;
