@@ -17,19 +17,6 @@ img:hover {
   filter: opacity(0.9);
 }
 
-h3 {
-  margin: 10px 0 0 0;
-  font-size: clamp(0.8rem, 3vw, 0.8rem);
-}
-h3:hover {
-  -webkit-text-decoration: dashed;
-          text-decoration: dashed;
-}
-
-span.post__date {
-  font-size: clamp(0.8rem, 2vw, 0.4rem);
-}
-
 header .nav {
   height: 70px;
 }
