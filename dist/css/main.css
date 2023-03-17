@@ -7,7 +7,10 @@
 a {
   text-decoration: none;
   color: #212631;
-  font-size: clamp(0.8rem, 3vw, 0.8rem);
+}
+a:hover {
+  -webkit-text-decoration: dashed;
+          text-decoration: dashed;
 }
 
 img:hover {
@@ -16,7 +19,11 @@ img:hover {
 
 h3 {
   margin: 10px 0 0 0;
-  font-size: clamp(1rem, 2vw, 0.4rem);
+  font-size: clamp(0.8rem, 3vw, 0.8rem);
+}
+h3:hover {
+  -webkit-text-decoration: dashed;
+          text-decoration: dashed;
 }
 
 span.post__date {
@@ -162,7 +169,7 @@ main .grid__container {
   flex-direction: column;
   margin: 0 auto;
   padding: 0 15px;
-  line-height: 1.1;
+  line-height: 1;
   overflow: hidden;
 }
 @media (min-width: 320px) {
