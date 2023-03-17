@@ -209,18 +209,6 @@ main .grid__container {
     margin: 0 auto;
   }
 }
-main .grid__container a {
-  font-size: clamp(1rem, 1vw, 1rem);
-}
-main .grid__container h2 {
-  font-size: clamp(1.6rem, 4vw, 2.2rem);
-}
-main .grid__container h3 {
-  font-size: clamp(1rem, 1vw, 1.2rem);
-}
-main .grid__container span {
-  font-size: clamp(0.6rem, 1vw, 1rem);
-}
 main .grid__container .section__grid {
   margin-top: 40px;
 }
