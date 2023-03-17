@@ -43,13 +43,7 @@ header .nav .nav__fixed .nav__container {
 }
 @media (min-width: 751px) {
   header .nav .nav__fixed .nav__container {
-    width: min(1110px, 100%);
-    margin: 0 auto;
-  }
-}
-@media (min-width: 1170px) {
-  header .nav .nav__fixed .nav__container {
-    width: min(1110px, 100%);
+    width: min(990px, 100%);
     margin: 0 auto;
   }
 }
@@ -168,13 +162,7 @@ main .grid__container {
 }
 @media (min-width: 751px) {
   main .grid__container {
-    width: min(1110px, 100%);
-    margin: 0 auto;
-  }
-}
-@media (min-width: 1170px) {
-  main .grid__container {
-    width: min(1110px, 100%);
+    width: min(990px, 100%);
     margin: 0 auto;
   }
 }
@@ -184,7 +172,7 @@ main .grid__container a {
 main .grid__container h2 {
   font-size: clamp(1.5rem, 2.5vw, 1.78rem);
 }
-main .grid__container a h3 {
+main .grid__container h3 {
   font-size: clamp(1.2rem, 2.5vw, 1.78rem);
 }
 main .grid__container .section__grid {
@@ -801,13 +789,7 @@ footer .grid__container {
 }
 @media (min-width: 751px) {
   footer .grid__container {
-    width: min(1110px, 100%);
-    margin: 0 auto;
-  }
-}
-@media (min-width: 1170px) {
-  footer .grid__container {
-    width: min(1110px, 100%);
+    width: min(990px, 100%);
     margin: 0 auto;
   }
 }

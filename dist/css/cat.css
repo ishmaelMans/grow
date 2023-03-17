@@ -43,13 +43,7 @@ header .nav .nav__fixed .nav__container {
 }
 @media (min-width: 751px) {
   header .nav .nav__fixed .nav__container {
-    width: min(1110px, 100%);
-    margin: 0 auto;
-  }
-}
-@media (min-width: 1170px) {
-  header .nav .nav__fixed .nav__container {
-    width: min(1110px, 100%);
+    width: min(990px, 100%);
     margin: 0 auto;
   }
 }
@@ -169,13 +163,7 @@ body {
 }
 @media (min-width: 751px) {
   .page__header .page__container {
-    width: min(1110px, 100%);
-    margin: 0 auto;
-  }
-}
-@media (min-width: 1170px) {
-  .page__header .page__container {
-    width: min(1110px, 100%);
+    width: min(990px, 100%);
     margin: 0 auto;
   }
 }
@@ -195,51 +183,50 @@ body {
   left: 60px;
 }
 
-.grid__container {
+main {
+  position: relative;
+}
+main .grid__container {
   width: 1170px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  position: relative;
   margin: 0 auto;
   padding: 0 15px;
   overflow: hidden;
 }
 @media (min-width: 320px) {
-  .grid__container {
+  main .grid__container {
     width: min(720px, 100%);
     margin: 0 auto;
   }
 }
 @media (min-width: 751px) {
-  .grid__container {
+  main .grid__container {
     width: min(990px, 100%);
     margin: 0 auto;
   }
 }
-@media (min-width: 1170px) {
-  .grid__container {
-    width: min(1110px, 100%);
-    margin: 0 auto;
-  }
-}
-.grid__container a {
+main .grid__container a {
   font-size: clamp(1.1rem, 2.5vw, 1rem);
 }
-.grid__container h2 {
+main .grid__container h2 {
   font-size: clamp(1.4rem, 2.5vw, 1.78rem);
 }
-.grid__container .section__grid {
+main .grid__container h3 {
+  font-size: clamp(1.2rem, 2.5vw, 1.78rem);
+}
+main .grid__container .section__grid {
   margin-top: 40px;
 }
 @media (min-width: 320px) {
-  .grid__container .section__grid .grid__section-3 .row__section-3 {
+  main .grid__container .section__grid .grid__section-3 .row__section-3 {
     grid-template-columns: 1fr;
   }
 }
 @media (min-width: 751px) {
-  .grid__container .section__grid .grid__section-3 .row__section-3 {
+  main .grid__container .section__grid .grid__section-3 .row__section-3 {
     margin-top: 40px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -248,151 +235,151 @@ body {
   }
 }
 @media (min-width: 320px) {
-  .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 {
+  main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 {
     grid-column: 1/2;
   }
 }
 @media (min-width: 751px) {
-  .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 {
+  main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 {
     grid-column: 1/3;
   }
 }
 @media (min-width: 320px) {
-  .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase {
+  main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase {
     grid-template-columns: 1fr;
   }
 }
 @media (min-width: 751px) {
-  .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase {
+  main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: mimax(200px, auto);
     grid-gap: 35px;
   }
 }
-.grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-12 {
+main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-12 {
   position: relative;
 }
 @media (min-width: 320px) {
-  .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-12 {
+  main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-12 {
     grid-column: 1/2;
     margin-bottom: 40px;
   }
 }
 @media (min-width: 751px) {
-  .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-12 {
+  main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-12 {
     grid-column: 1/3;
     position: relative;
     margin-bottom: 0;
   }
 }
-.grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-12 a.post__category.cat__1 {
+main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-12 a.post__category.cat__1 {
   background: #4bb92f;
   color: #fff;
   padding: 3px 10px;
   margin: 0 5px 0 0;
 }
-.grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-12 a.post__category.cat__2 {
+main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-12 a.post__category.cat__2 {
   background: #ff8700;
   color: #fff;
   padding: 3px 10px;
   margin: 0 5px 0 0;
 }
-.grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-12 a.post__category.cat__3 {
+main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-12 a.post__category.cat__3 {
   background: #0070ff;
   color: #fff;
   padding: 3px 10px;
   margin: 0 5px 0 0;
 }
-.grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-12 a.post__category.cat__4 {
+main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-12 a.post__category.cat__4 {
   background: #8d00ff;
   color: #fff;
   padding: 3px 10px;
   margin: 0 5px 0 0;
 }
-.grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-12 .post__thumb .post__img img {
+main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-12 .post__thumb .post__img img {
   width: 100%;
   height: 450px;
 }
 @media (min-width: 320px) {
-  .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-12 .post__thumb .post__img img {
+  main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-12 .post__thumb .post__img img {
     width: 100%;
     height: min(420px, 100%);
   }
 }
 @media (min-width: 751px) {
-  .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-12 .post__thumb .post__img img {
+  main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-12 .post__thumb .post__img img {
     width: 100%;
     height: min(420px, 100%);
   }
 }
-.grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-12 .post__body {
+main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-12 .post__body {
   position: absolute;
   bottom: 0;
   padding: 15px;
 }
-.grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-12 .post__body a, .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-12 .post__body span {
+main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-12 .post__body a, main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-12 .post__body span {
   color: #fff;
 }
-.grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-6 .post__body {
+main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-6 .post__body {
   margin-top: 15px;
 }
 @media (min-width: 320px) {
-  .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-6 .post__body {
+  main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-6 .post__body {
     margin: 20px 0;
   }
 }
 @media (min-width: 320px) {
-  .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-6 img {
+  main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-6 img {
     width: min(750px, 100%);
     height: min(480px, 100%);
   }
 }
 @media (min-width: 751px) {
-  .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-6 img {
+  main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-6 img {
     width: 100%;
     height: min(216px, 100%);
   }
 }
-.grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-6 a.post__category.cat__1 {
+main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-6 a.post__category.cat__1 {
   background: #4bb92f;
   color: #fff;
   padding: 3px 10px;
   margin: 0 5px 0 0;
 }
-.grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-6 a.post__category.cat__2 {
+main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-6 a.post__category.cat__2 {
   background: #ff8700;
   color: #fff;
   padding: 3px 10px;
   margin: 0 5px 0 0;
 }
-.grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-6 a.post__category.cat__3 {
+main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-6 a.post__category.cat__3 {
   background: #0070ff;
   color: #fff;
   padding: 3px 10px;
   margin: 0 5px 0 0;
 }
-.grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-6 a.post__category.cat__4 {
+main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-6 a.post__category.cat__4 {
   background: #8d00ff;
   color: #fff;
   padding: 3px 10px;
   margin: 0 5px 0 0;
 }
-.grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .ad__2 {
+main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .ad__2 {
   grid-column: 1/3;
   margin: 15px 0;
 }
-.grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .ad__2 a img {
+main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .ad__2 a img {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
   height: min(90px, 100%);
 }
-.grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .col__md-12 {
+main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .col__md-12 {
   grid-column: 1/3;
 }
 @media (min-width: 320px) {
-  .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row {
+  main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -401,7 +388,7 @@ body {
   }
 }
 @media (min-width: 751px) {
-  .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row {
+  main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -410,13 +397,13 @@ body {
   }
 }
 @media (min-width: 320px) {
-  .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row a img {
+  main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row a img {
     width: min(690px, 100%);
     height: min(450px, 100%);
   }
 }
 @media (min-width: 751px) {
-  .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row a img {
+  main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row a img {
     -o-object-fit: cover;
        object-fit: cover;
     width: 260px;
@@ -424,148 +411,148 @@ body {
   }
 }
 @media (min-width: 320px) {
-  .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row .post__body {
+  main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row .post__body {
     margin: 25px 0 0 0;
   }
 }
 @media (min-width: 751px) {
-  .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row .post__body {
+  main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row .post__body {
     margin: 5px 0 0 20px;
   }
 }
 @media (min-width: 320px) {
-  .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row .post__body p {
+  main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row .post__body p {
     display: none;
   }
 }
 @media (min-width: 751px) {
-  .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row .post__body p {
+  main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row .post__body p {
     display: block;
   }
 }
-.grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row a.post__category.cat__1 {
+main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row a.post__category.cat__1 {
   background: #4bb92f;
   color: #fff;
   padding: 3px 10px;
   margin: 0 5px 0 0;
 }
-.grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row a.post__category.cat__2 {
+main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row a.post__category.cat__2 {
   background: #ff8700;
   color: #fff;
   padding: 3px 10px;
   margin: 0 5px 0 0;
 }
-.grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row a.post__category.cat__3 {
+main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row a.post__category.cat__3 {
   background: #0070ff;
   color: #fff;
   padding: 3px 10px;
   margin: 0 5px 0 0;
 }
-.grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row a.post__category.cat__4 {
+main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row a.post__category.cat__4 {
   background: #8d00ff;
   color: #fff;
   padding: 3px 10px;
   margin: 0 5px 0 0;
 }
 @media (min-width: 320px) {
-  .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 {
+  main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 {
     grid-column: 1/2;
   }
 }
 @media (min-width: 751px) {
-  .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 {
+  main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 {
     grid-column: 3/4;
   }
 }
-.grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .aside__widget.text__center {
+main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .aside__widget.text__center {
   display: flex;
 }
-.grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .aside__widget.text__center a img {
+main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .aside__widget.text__center a img {
   width: 300px;
   height: 250px;
   margin-top: 20px;
 }
 @media (min-width: 320px) {
-  .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .aside__widget.text__center a img {
+  main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .aside__widget.text__center a img {
     height: min(271px, 100%);
   }
 }
-.grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .aside__widget .post__widget img {
+main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .aside__widget .post__widget img {
   -o-object-fit: cover;
      object-fit: cover;
   width: 90px;
   height: 90px;
 }
-.grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .aside__widget .post__widget {
+main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .aside__widget .post__widget {
   display: flex;
   margin-bottom: 40px;
 }
-.grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .aside__widget .post__widget .post__body {
+main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .aside__widget .post__widget .post__body {
   margin: 0 0 0 20px;
 }
-.grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .post__widget .post__body .post__title {
+main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .post__widget .post__body .post__title {
   margin: 0;
 }
-.grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .section__title h2 {
+main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .section__title h2 {
   font-size: 1.7rem;
   font-weight: 700;
   margin: 40px 0;
 }
-.grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .category__widget ul {
+main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .category__widget ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-.grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .category__widget ul li {
+main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .category__widget ul li {
   position: relative;
   margin-bottom: 25px;
   padding-bottom: 10px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
-.grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .category__widget ul li a {
+main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .category__widget ul li a {
   width: 100%;
 }
-.grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .category__widget ul li a span {
+main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .category__widget ul li a span {
   position: absolute;
   right: 0;
   padding: 10px;
 }
-.grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .category__widget ul li a.cat__1 span {
+main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .category__widget ul li a.cat__1 span {
   background: #4bb92f;
   color: #fff;
   padding: 3px 10px;
   margin: 0 5px 0 0;
 }
-.grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .category__widget ul li a.cat__2 span {
+main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .category__widget ul li a.cat__2 span {
   background: #ff8700;
   color: #fff;
   padding: 3px 10px;
   margin: 0 5px 0 0;
 }
-.grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .category__widget ul li a.cat__3 span {
+main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .category__widget ul li a.cat__3 span {
   background: #0070ff;
   color: #fff;
   padding: 3px 10px;
   margin: 0 5px 0 0;
 }
-.grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .category__widget ul li a.cat__4 span {
+main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .category__widget ul li a.cat__4 span {
   background: #8d00ff;
   color: #fff;
   padding: 3px 10px;
   margin: 0 5px 0 0;
 }
-.grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .aside__widget .tags__widget ul {
+main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .aside__widget .tags__widget ul {
   margin: 0;
   padding: 0;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
 }
-.grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .aside__widget .tags__widget ul li {
+main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .aside__widget .tags__widget ul li {
   padding: 8px;
   margin-bottom: 10px;
 }
-.grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .aside__widget .tags__widget ul li a {
+main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .aside__widget .tags__widget ul li a {
   background: #212631;
   color: #fff;
   padding: 5px;
@@ -588,13 +575,7 @@ footer .grid__container {
 }
 @media (min-width: 751px) {
   footer .grid__container {
-    width: min(1110px, 100%);
-    margin: 0 auto;
-  }
-}
-@media (min-width: 1170px) {
-  footer .grid__container {
-    width: min(1110px, 100%);
+    width: min(990px, 100%);
     margin: 0 auto;
   }
 }
@@ -734,4 +715,4 @@ footer .grid__container .col__md-3 ul.footer__social li i {
 }
 footer .grid__container .col__md-3 ul.footer__social li i:hover {
   color: #212631;
-}/*# sourceMappingURL=javascript_page.css.map */
+}/*# sourceMappingURL=cat.css.map */
