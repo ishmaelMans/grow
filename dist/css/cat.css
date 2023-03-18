@@ -168,13 +168,19 @@ body {
 }
 @media (min-width: 320px) {
   .page__header .page__container {
-    width: min(720px, 100%);
+    width: min(750px, 90%);
     margin: 0 auto;
   }
 }
 @media (min-width: 968px) {
   .page__header .page__container {
-    width: min(990px, 100%);
+    width: min(970px, 90%);
+    margin: 0 auto;
+  }
+}
+@media (min-width: 1200px) {
+  .page__header .page__container {
+    width: min(1170px, 90%);
     margin: 0 auto;
   }
 }
@@ -206,13 +212,19 @@ main .grid__container {
 }
 @media (min-width: 320px) {
   main .grid__container {
-    width: min(720px, 90%);
+    width: min(750px, 90%);
     margin: 0 auto;
   }
 }
 @media (min-width: 968px) {
   main .grid__container {
-    width: min(950px, 90%);
+    width: min(970px, 90%);
+    margin: 0 auto;
+  }
+}
+@media (min-width: 1200px) {
+  main .grid__container {
+    width: min(1170px, 90%);
     margin: 0 auto;
   }
 }
@@ -317,8 +329,15 @@ main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8
   bottom: 0;
   padding: 15px;
 }
-main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-12 .post__body a span {
+main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-12 .post__body span {
   color: #fff;
+}
+main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-12 .post__body h3 a {
+  color: #fff;
+}
+main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-6 {
+  width: 100%;
+  height: 100%;
 }
 main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-6 .post__body {
   margin-top: 15px;
@@ -338,6 +357,25 @@ main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8
   main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-6 img {
     width: 100%;
     height: min(216px, 100%);
+  }
+}
+main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-6 .post {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-6 .post .post__img {
+  display: block;
+}
+main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-6 .post .post__body {
+  margin-top: 15px;
+}
+main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-6 .post .post__body h3 {
+  font-size: 1.1em;
+}
+@media (min-width: 968px) {
+  main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-6 .post .post__body {
+    margin-top: 10px;
   }
 }
 main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .showcase .col__md-6 a.post__category.cat__1 {
