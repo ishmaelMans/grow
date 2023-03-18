@@ -311,7 +311,6 @@ main .section__grid .grid__container .grid__section-1 .row__2 .col__md-4 .post {
   width: 100%;
   display: flex;
   flex-direction: column;
-  flex-direction: column;
 }
 main .section__grid .grid__container .grid__section-1 .row__2 .col__md-4 .post .post__img {
   display: block;
@@ -362,7 +361,7 @@ main .section__grid .grid__container .grid__section-1 .row__2 .col__md-4 .post .
   main .section__grid .grid__container .grid__section-1 .row__3 .col__md-8 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 0.5fr 0.5fr;
+    grid-auto-rows: minmax(100px, auto);
     grid-gap: 25px;
     overflow: hidden;
   }
@@ -407,6 +406,7 @@ main .section__grid .grid__container .grid__section-1 .row__3 .col__md-8 .col__m
 }
 main .section__grid .grid__container .grid__section-1 .row__3 .col__md-8 .col__md-6 {
   width: 100%;
+  height: 100%;
 }
 @media (min-width: 320px) {
   main .section__grid .grid__container .grid__section-1 .row__3 .col__md-8 .col__md-6 {
@@ -435,7 +435,6 @@ main .section__grid .grid__container .grid__section-1 .row__3 .col__md-8 .col__m
 main .section__grid .grid__container .grid__section-1 .row__3 .col__md-8 .col__md-6 .post {
   width: 100%;
   display: flex;
-  flex-direction: column;
   flex-direction: column;
 }
 main .section__grid .grid__container .grid__section-1 .row__3 .col__md-8 .col__md-6 .post .post__img {
