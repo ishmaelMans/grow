@@ -155,7 +155,10 @@ body {
 main {
   position: relative;
 }
-main .grid__container {
+main .section__grid {
+  margin-top: 40px;
+}
+main .section__grid .grid__container {
   width: min(1170px, 100%);
   margin: 0 auto;
   padding: 0 15px;
@@ -163,34 +166,31 @@ main .grid__container {
   overflow: hidden;
 }
 @media (min-width: 320px) {
-  main .grid__container {
+  main .section__grid .grid__container {
     width: min(750px, 100%);
     margin: 0 auto;
   }
 }
 @media (min-width: 968px) {
-  main .grid__container {
+  main .section__grid .grid__container {
     width: min(970px, 100%);
     margin: 0 auto;
   }
 }
 @media (min-width: 1200px) {
-  main .grid__container {
+  main .section__grid .grid__container {
     width: min(1170px, 100%);
     margin: 0 auto;
   }
 }
-main .grid__container .section__grid {
-  margin-top: 40px;
-}
 @media (min-width: 320px) {
-  main .grid__container .section__grid .grid__section-1 .row__1 {
+  main .section__grid .grid__container .grid__section-1 .row__1 {
     grid-template-columns: 1fr;
     grid-auto-rows: minmax(100px, auto);
   }
 }
 @media (min-width: 968px) {
-  main .grid__container .section__grid .grid__section-1 .row__1 {
+  main .section__grid .grid__container .grid__section-1 .row__1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: minmax(100px, auto);
@@ -198,132 +198,132 @@ main .grid__container .section__grid {
     padding-bottom: 25px;
   }
 }
-main .grid__container .section__grid .grid__section-1 .row__1 .col__md-6 {
+main .section__grid .grid__container .grid__section-1 .row__1 .col__md-6 {
   margin-bottom: 40px;
   position: relative;
 }
-main .grid__container .section__grid .grid__section-1 .row__1 .col__md-6 img {
+main .section__grid .grid__container .grid__section-1 .row__1 .col__md-6 img {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
 }
 @media (min-width: 320px) {
-  main .grid__container .section__grid .grid__section-1 .row__1 .col__md-6 img {
+  main .section__grid .grid__container .grid__section-1 .row__1 .col__md-6 img {
     -o-object-fit: cover;
        object-fit: cover;
     width: min(720px, 100%);
     height: min(430px, 100%);
   }
 }
-main .grid__container .section__grid .grid__section-1 .row__1 .col__md-6 .post__body {
+main .section__grid .grid__container .grid__section-1 .row__1 .col__md-6 .post__body {
   position: absolute;
   bottom: 0;
   left: 0;
   padding: 20px;
   color: #fff;
 }
-main .grid__container .section__grid .grid__section-1 .row__1 .col__md-6 .post__body a.post__category.cat__2 {
+main .section__grid .grid__container .grid__section-1 .row__1 .col__md-6 .post__body a.post__category.cat__2 {
   background: #4bb92f;
   color: #fff;
   padding: 3px 10px;
   margin: 0 5px 0 0;
 }
-main .grid__container .section__grid .grid__section-1 .row__1 .col__md-6 .post__body a {
+main .section__grid .grid__container .grid__section-1 .row__1 .col__md-6 .post__body a {
   color: #fff;
 }
 @media (min-width: 320px) {
-  main .grid__container .section__grid .grid__section-1 .row__2 {
+  main .section__grid .grid__container .grid__section-1 .row__2 {
     grid-template-columns: 1fr;
     grid-auto-rows: minmax(70px, auto);
   }
 }
 @media (min-width: 968px) {
-  main .grid__container .section__grid .grid__section-1 .row__2 {
+  main .section__grid .grid__container .grid__section-1 .row__2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: minmax(100px, auto);
     grid-gap: 20px;
   }
 }
-main .grid__container .section__grid .grid__section-1 .row__2 a.post__category.cat__1 {
+main .section__grid .grid__container .grid__section-1 .row__2 a.post__category.cat__1 {
   background: #4bb92f;
   color: #fff;
   padding: 3px 10px;
   margin: 0 5px 0 0;
 }
-main .grid__container .section__grid .grid__section-1 .row__2 a.post__category.cat__2 {
+main .section__grid .grid__container .grid__section-1 .row__2 a.post__category.cat__2 {
   background: #ff8700;
   color: #fff;
   padding: 3px 10px;
   margin: 0 5px 0 0;
 }
-main .grid__container .section__grid .grid__section-1 .row__2 a.post__category.cat__3 {
+main .section__grid .grid__container .grid__section-1 .row__2 a.post__category.cat__3 {
   background: #8d00ff;
   color: #fff;
   padding: 3px 10px;
   margin: 0 5px 0 0;
 }
-main .grid__container .section__grid .grid__section-1 .row__2 a.post__category.cat__4 {
+main .section__grid .grid__container .grid__section-1 .row__2 a.post__category.cat__4 {
   background: #0070ff;
   color: #fff;
   padding: 3px 10px;
   margin: 0 5px 0 0;
 }
-main .grid__container .section__grid .grid__section-1 .row__2 .post__img img {
+main .section__grid .grid__container .grid__section-1 .row__2 .post__img img {
   -o-object-fit: cover;
      object-fit: cover;
 }
 @media (min-width: 320px) {
-  main .grid__container .section__grid .grid__section-1 .row__2 .post__img img {
+  main .section__grid .grid__container .grid__section-1 .row__2 .post__img img {
     width: 100%;
     height: min(430px, 100%);
   }
 }
 @media (min-width: 968px) {
-  main .grid__container .section__grid .grid__section-1 .row__2 .post__img img {
+  main .section__grid .grid__container .grid__section-1 .row__2 .post__img img {
     max-width: 100%;
     height: min(270px, 100%);
   }
 }
-main .grid__container .section__grid .grid__section-1 .row__2 > div {
+main .section__grid .grid__container .grid__section-1 .row__2 > div {
   background: #fff;
   overflow: hidden;
 }
-main .grid__container .section__grid .grid__section-1 .row__2 .col__md-12 {
+main .section__grid .grid__container .grid__section-1 .row__2 .col__md-12 {
   grid-column: 1/2;
   background: #fff;
 }
 @media (min-width: 320px) {
-  main .grid__container .section__grid .grid__section-1 .row__2 .col__md-12 {
+  main .section__grid .grid__container .grid__section-1 .row__2 .col__md-12 {
     grid-column: 1/4;
   }
 }
 @media (min-width: 320px) {
-  main .grid__container .section__grid .grid__section-1 .row__2 .col__md-4 {
+  main .section__grid .grid__container .grid__section-1 .row__2 .col__md-4 {
     margin-bottom: 40px;
   }
 }
 @media (min-width: 968px) {
-  main .grid__container .section__grid .grid__section-1 .row__2 .col__md-4 {
+  main .section__grid .grid__container .grid__section-1 .row__2 .col__md-4 {
     margin-bottom: 0;
   }
 }
-main .grid__container .section__grid .grid__section-1 .row__2 .col__md-4 .post__body {
+main .section__grid .grid__container .grid__section-1 .row__2 .col__md-4 .post__body {
   margin-top: 15px;
 }
 @media (min-width: 968px) {
-  main .grid__container .section__grid .grid__section-1 .row__2 .col__md-4 .post__body {
+  main .section__grid .grid__container .grid__section-1 .row__2 .col__md-4 .post__body {
     margin-top: 10px;
   }
 }
 @media (min-width: 320px) {
-  main .grid__container .section__grid .grid__section-1 .row__3 {
+  main .section__grid .grid__container .grid__section-1 .row__3 {
     grid-template-columns: 1fr;
     grid-auto-rows: minmax(200px, auto);
   }
 }
 @media (min-width: 968px) {
-  main .grid__container .section__grid .grid__section-1 .row__3 {
+  main .section__grid .grid__container .grid__section-1 .row__3 {
     margin-top: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -331,24 +331,24 @@ main .grid__container .section__grid .grid__section-1 .row__2 .col__md-4 .post__
   }
 }
 @media (min-width: 320px) {
-  main .grid__container .section__grid .grid__section-1 .row__3 .col__md-8 {
+  main .section__grid .grid__container .grid__section-1 .row__3 .col__md-8 {
     grid-column: 1/2;
     overflow: hidden;
   }
 }
 @media (min-width: 968px) {
-  main .grid__container .section__grid .grid__section-1 .row__3 .col__md-8 {
+  main .section__grid .grid__container .grid__section-1 .row__3 .col__md-8 {
     grid-column: 1/3;
   }
 }
 @media (min-width: 320px) {
-  main .grid__container .section__grid .grid__section-1 .row__3 .col__md-8 {
+  main .section__grid .grid__container .grid__section-1 .row__3 .col__md-8 {
     grid-template-columns: 1fr;
     grid-auto-rows: minmax(200px, auto);
   }
 }
 @media (min-width: 968px) {
-  main .grid__container .section__grid .grid__section-1 .row__3 .col__md-8 {
+  main .section__grid .grid__container .grid__section-1 .row__3 .col__md-8 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: minmax(100px, auto);
@@ -357,22 +357,22 @@ main .grid__container .section__grid .grid__section-1 .row__2 .col__md-4 .post__
   }
 }
 @media (min-width: 320px) {
-  main .grid__container .section__grid .grid__section-1 .row__3 .col__md-8 .col__md-12 {
+  main .section__grid .grid__container .grid__section-1 .row__3 .col__md-8 .col__md-12 {
     grid-column: 1/2;
     margin-bottom: 50px;
   }
 }
 @media (min-width: 968px) {
-  main .grid__container .section__grid .grid__section-1 .row__3 .col__md-8 .col__md-12 {
+  main .section__grid .grid__container .grid__section-1 .row__3 .col__md-8 .col__md-12 {
     grid-column: 1/3;
   }
 }
-main .grid__container .section__grid .grid__section-1 .row__3 .col__md-8 .col__md-12 .post__thumb {
+main .section__grid .grid__container .grid__section-1 .row__3 .col__md-8 .col__md-12 .post__thumb {
   position: relative;
   color: #fff;
 }
 @media (min-width: 320px) {
-  main .grid__container .section__grid .grid__section-1 .row__3 .col__md-8 .col__md-12 .post__thumb .post__img img {
+  main .section__grid .grid__container .grid__section-1 .row__3 .col__md-8 .col__md-12 .post__thumb .post__img img {
     -o-object-fit: cover;
        object-fit: cover;
     min-width: min(650px, 100%);
@@ -380,34 +380,34 @@ main .grid__container .section__grid .grid__section-1 .row__3 .col__md-8 .col__m
   }
 }
 @media (min-width: 968px) {
-  main .grid__container .section__grid .grid__section-1 .row__3 .col__md-8 .col__md-12 .post__thumb .post__img img {
+  main .section__grid .grid__container .grid__section-1 .row__3 .col__md-8 .col__md-12 .post__thumb .post__img img {
     -o-object-fit: cover;
        object-fit: cover;
     width: 100%;
     height: min(420px, 100%);
   }
 }
-main .grid__container .section__grid .grid__section-1 .row__3 .col__md-8 .col__md-12 .post__body {
+main .section__grid .grid__container .grid__section-1 .row__3 .col__md-8 .col__md-12 .post__body {
   position: absolute;
   bottom: 0;
   left: 0;
   padding: 10px;
 }
-main .grid__container .section__grid .grid__section-1 .row__3 .col__md-8 .col__md-12 .post__body a {
+main .section__grid .grid__container .grid__section-1 .row__3 .col__md-8 .col__md-12 .post__body a {
   color: #fff;
 }
 @media (min-width: 320px) {
-  main .grid__container .section__grid .grid__section-1 .row__3 .col__md-8 .col__md-6 {
+  main .section__grid .grid__container .grid__section-1 .row__3 .col__md-8 .col__md-6 {
     margin-bottom: 40px;
   }
 }
 @media (min-width: 968px) {
-  main .grid__container .section__grid .grid__section-1 .row__3 .col__md-8 .col__md-6 {
+  main .section__grid .grid__container .grid__section-1 .row__3 .col__md-8 .col__md-6 {
     margin-bottom: 0;
   }
 }
 @media (min-width: 320px) {
-  main .grid__container .section__grid .grid__section-1 .row__3 .col__md-8 .col__md-6 img {
+  main .section__grid .grid__container .grid__section-1 .row__3 .col__md-8 .col__md-6 img {
     -o-object-fit: cover;
        object-fit: cover;
     width: min(750px, 100%);
@@ -415,45 +415,45 @@ main .grid__container .section__grid .grid__section-1 .row__3 .col__md-8 .col__m
   }
 }
 @media (min-width: 968px) {
-  main .grid__container .section__grid .grid__section-1 .row__3 .col__md-8 .col__md-6 img {
+  main .section__grid .grid__container .grid__section-1 .row__3 .col__md-8 .col__md-6 img {
     -o-object-fit: cover;
        object-fit: cover;
     width: 100%;
     height: 216px;
   }
 }
-main .grid__container .section__grid .grid__section-1 .row__3 .col__md-4 {
+main .section__grid .grid__container .grid__section-1 .row__3 .col__md-4 {
   grid-column: 1/2;
 }
 @media (min-width: 968px) {
-  main .grid__container .section__grid .grid__section-1 .row__3 .col__md-4 {
+  main .section__grid .grid__container .grid__section-1 .row__3 .col__md-4 {
     grid-column: 3/4;
   }
 }
-main .grid__container .section__grid .grid__section-1 .row__3 .col__md-4 .aside__widget .section__title h2 {
+main .section__grid .grid__container .grid__section-1 .row__3 .col__md-4 .aside__widget .section__title h2 {
   margin: 0 0 40px 0;
 }
-main .grid__container .section__grid .grid__section-1 .row__3 .col__md-4 .aside__widget .post__widget img {
+main .section__grid .grid__container .grid__section-1 .row__3 .col__md-4 .aside__widget .post__widget img {
   -o-object-fit: cover;
      object-fit: cover;
   width: 90px;
   height: 90px;
 }
-main .grid__container .section__grid .grid__section-1 .row__3 .col__md-4 .aside__widget .post__widget {
+main .section__grid .grid__container .grid__section-1 .row__3 .col__md-4 .aside__widget .post__widget {
   display: flex;
   margin-bottom: 40px;
 }
-main .grid__container .section__grid .grid__section-1 .row__3 .col__md-4 .aside__widget .post__widget .post__body {
+main .section__grid .grid__container .grid__section-1 .row__3 .col__md-4 .aside__widget .post__widget .post__body {
   margin: 0 0 0 20px;
 }
-main .grid__container .section__grid .grid__section-1 .row__3 .col__md-4 .post__widget .post__body .post__title {
+main .section__grid .grid__container .grid__section-1 .row__3 .col__md-4 .post__widget .post__body .post__title {
   margin: 0;
 }
-main .grid__container .section__grid .grid__section-1 .row__3 .col__md-4 .aside__featured .post__thumb {
+main .section__grid .grid__container .grid__section-1 .row__3 .col__md-4 .aside__featured .post__thumb {
   position: relative;
   margin-bottom: 40px;
 }
-main .grid__container .section__grid .grid__section-1 .row__3 .col__md-4 .aside__featured .post__body {
+main .section__grid .grid__container .grid__section-1 .row__3 .col__md-4 .aside__featured .post__body {
   width: 100%;
   padding: 15px;
   position: absolute;
@@ -461,76 +461,76 @@ main .grid__container .section__grid .grid__section-1 .row__3 .col__md-4 .aside_
   bottom: 0;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1));
 }
-main .grid__container .section__grid .grid__section-1 .row__3 .col__md-4 .aside__featured .post__body span {
+main .section__grid .grid__container .grid__section-1 .row__3 .col__md-4 .aside__featured .post__body span {
   color: #fff;
 }
-main .grid__container .section__grid .grid__section-1 .row__3 .col__md-4 .aside__featured .post__body a {
+main .section__grid .grid__container .grid__section-1 .row__3 .col__md-4 .aside__featured .post__body a {
   color: #fff;
 }
 @media (min-width: 320px) {
-  main .grid__container .section__grid .grid__section-1 .row__3 .col__md-4 .aside__featured img {
+  main .section__grid .grid__container .grid__section-1 .row__3 .col__md-4 .aside__featured img {
     width: 100%;
     height: min(390px, 100%);
   }
 }
 @media (min-width: 968px) {
-  main .grid__container .section__grid .grid__section-1 .row__3 .col__md-4 .aside__featured img {
+  main .section__grid .grid__container .grid__section-1 .row__3 .col__md-4 .aside__featured img {
     width: 100%;
     height: 216px;
   }
 }
 @media (min-width: 320px) {
-  main .grid__container .section__grid .grid__section-1 .row__3 .col__md-4 .text__center {
+  main .section__grid .grid__container .grid__section-1 .row__3 .col__md-4 .text__center {
     display: flex;
     justify-content: center;
   }
 }
 @media (min-width: 968px) {
-  main .grid__container .section__grid .grid__section-1 .row__3 .col__md-4 .text__center {
+  main .section__grid .grid__container .grid__section-1 .row__3 .col__md-4 .text__center {
     display: flex;
     justify-content: center;
   }
 }
-main .grid__container .section__grid .grid__section-1 .row__3 .post__body {
+main .section__grid .grid__container .grid__section-1 .row__3 .post__body {
   margin-top: 15px;
 }
-main .grid__container .section__grid .grid__section-1 .row__3 img {
+main .section__grid .grid__container .grid__section-1 .row__3 img {
   width: 100%;
   height: 250px;
   -o-object-fit: cover;
      object-fit: cover;
 }
-main .grid__container .section__grid .grid__section-1 .row__3 a.post__category.cat__1 {
+main .section__grid .grid__container .grid__section-1 .row__3 a.post__category.cat__1 {
   background: #4bb92f;
   color: #fff;
   padding: 3px 10px;
   margin: 0 5px 0 0;
 }
-main .grid__container .section__grid .grid__section-1 .row__3 a.post__category.cat__2 {
+main .section__grid .grid__container .grid__section-1 .row__3 a.post__category.cat__2 {
   background: #ff8700;
   color: #fff;
   padding: 3px 10px;
   margin: 0 5px 0 0;
 }
-main .grid__container .section__grid .grid__section-1 .row__3 a.post__category.cat__3 {
+main .section__grid .grid__container .grid__section-1 .row__3 a.post__category.cat__3 {
   background: #8d00ff;
   color: #fff;
   padding: 3px 10px;
   margin: 0 5px 0 0;
 }
-main .grid__container .section__grid .grid__section-1 .row__3 a.post__category.cat__4 {
+main .section__grid .grid__container .grid__section-1 .row__3 a.post__category.cat__4 {
   background: #0070ff;
   color: #fff;
   padding: 3px 10px;
   margin: 0 5px 0 0;
 }
 @media (min-width: 320px) {
-  main .grid__container .section__grid .grid__section-2 .row__section-2 {
+  main .section__grid .grid__container .grid__section-2 .row__section-2 {
     grid-template-columns: 1fr;
   }
 }
 @media (min-width: 968px) {
-  main .grid__container .section__grid .grid__section-2 .row__section-2 {
+  main .section__grid .grid__container .grid__section-2 .row__section-2 {
     margin-top: 40px;
     border-top: 1px solid rgba(0, 0, 0, 0.2);
     display: grid;
@@ -540,30 +540,30 @@ main .grid__container .section__grid .grid__section-1 .row__3 a.post__category.c
   }
 }
 @media (min-width: 320px) {
-  main .grid__container .section__grid .grid__section-2 .row__section-2 .col__md-12 {
+  main .section__grid .grid__container .grid__section-2 .row__section-2 .col__md-12 {
     grid-column: 1/2;
     margin: 40px 0;
   }
 }
 @media (min-width: 968px) {
-  main .grid__container .section__grid .grid__section-2 .row__section-2 .col__md-12 {
+  main .section__grid .grid__container .grid__section-2 .row__section-2 .col__md-12 {
     grid-column: 1/4;
     text-align: center;
     padding-top: 30px;
   }
 }
 @media (min-width: 320px) {
-  main .grid__container .section__grid .grid__section-2 .row__section-2 .col__md-4 {
+  main .section__grid .grid__container .grid__section-2 .row__section-2 .col__md-4 {
     margin-bottom: 40px;
   }
 }
 @media (min-width: 320px) {
-  main .grid__container .section__grid .grid__section-2 .row__section-2 .col__md-4 {
+  main .section__grid .grid__container .grid__section-2 .row__section-2 .col__md-4 {
     margin-bottom: 0;
   }
 }
 @media (min-width: 320px) {
-  main .grid__container .section__grid .grid__section-2 .row__section-2 .col__md-4 img {
+  main .section__grid .grid__container .grid__section-2 .row__section-2 .col__md-4 img {
     width: 100%;
     height: 216px;
     -o-object-fit: cover;
@@ -571,46 +571,46 @@ main .grid__container .section__grid .grid__section-1 .row__3 a.post__category.c
   }
 }
 @media (min-width: 320px) {
-  main .grid__container .section__grid .grid__section-2 .row__section-2 .col__md-4 img {
+  main .section__grid .grid__container .grid__section-2 .row__section-2 .col__md-4 img {
     -o-object-fit: cover;
        object-fit: cover;
     height: min(430px, 100%);
   }
 }
-main .grid__container .section__grid .grid__section-2 .row__section-2 a.post__category.cat__1 {
+main .section__grid .grid__container .grid__section-2 .row__section-2 a.post__category.cat__1 {
   background: #4bb92f;
   color: #fff;
   padding: 3px 10px;
   margin: 0 5px 0 0;
 }
-main .grid__container .section__grid .grid__section-2 .row__section-2 a.post__category.cat__2 {
+main .section__grid .grid__container .grid__section-2 .row__section-2 a.post__category.cat__2 {
   background: #ff8700;
   color: #fff;
   padding: 3px 10px;
   margin: 0 5px 0 0;
 }
-main .grid__container .section__grid .grid__section-2 .row__section-2 a.post__category.cat__3 {
+main .section__grid .grid__container .grid__section-2 .row__section-2 a.post__category.cat__3 {
   background: #8d00ff;
   color: #fff;
   padding: 3px 10px;
   margin: 0 5px 0 0;
 }
-main .grid__container .section__grid .grid__section-2 .row__section-2 a.post__category.cat__4 {
+main .section__grid .grid__container .grid__section-2 .row__section-2 a.post__category.cat__4 {
   background: #0070ff;
   color: #fff;
   padding: 3px 10px;
   margin: 0 5px 0 0;
 }
-main .grid__container .section__grid .grid__section-2 .row__section-2 .post__body {
+main .section__grid .grid__container .grid__section-2 .row__section-2 .post__body {
   margin-top: 20px;
 }
 @media (min-width: 320px) {
-  main .grid__container .section__grid .grid__section-3 .row__section-3 {
+  main .section__grid .grid__container .grid__section-3 .row__section-3 {
     grid-template-columns: 1fr;
   }
 }
 @media (min-width: 968px) {
-  main .grid__container .section__grid .grid__section-3 .row__section-3 {
+  main .section__grid .grid__container .grid__section-3 .row__section-3 {
     margin-top: 40px;
     border-top: 1px solid rgba(0, 0, 0, 0.2);
     display: grid;
@@ -619,25 +619,25 @@ main .grid__container .section__grid .grid__section-2 .row__section-2 .post__bod
     grid-gap: 30px;
   }
 }
-main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 {
+main .section__grid .grid__container .grid__section-3 .row__section-3 .col__md-8 {
   grid-column: 1/3;
 }
 @media (min-width: 320px) {
-  main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row {
+  main .section__grid .grid__container .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row {
     display: flex;
     flex-direction: column;
     margin-bottom: 40px;
   }
 }
 @media (min-width: 968px) {
-  main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row {
+  main .section__grid .grid__container .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row {
     display: flex;
     flex-direction: row;
     margin-bottom: 40px;
   }
 }
 @media (min-width: 320px) {
-  main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row a img {
+  main .section__grid .grid__container .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row a img {
     -o-object-fit: cover;
        object-fit: cover;
     width: min(720px, 100%);
@@ -645,136 +645,136 @@ main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8
   }
 }
 @media (min-width: 968px) {
-  main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row a img {
+  main .section__grid .grid__container .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row a img {
     -o-object-fit: cover;
        object-fit: cover;
     width: 260px;
     height: 200px;
   }
 }
-main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row .post__body {
+main .section__grid .grid__container .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row .post__body {
   margin-left: 30px;
 }
 @media (min-width: 320px) {
-  main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row .post__body {
+  main .section__grid .grid__container .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row .post__body {
     margin: 20px 0;
   }
 }
 @media (min-width: 968px) {
-  main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row .post__body {
+  main .section__grid .grid__container .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row .post__body {
     margin: 5px 15px 0 15px;
   }
 }
 @media (min-width: 320px) {
-  main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row .post__body p {
+  main .section__grid .grid__container .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row .post__body p {
     display: none;
   }
 }
 @media (min-width: 968px) {
-  main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row .post__body p {
+  main .section__grid .grid__container .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row .post__body p {
     display: block;
   }
 }
-main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row a.post__category.cat__1 {
+main .section__grid .grid__container .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row a.post__category.cat__1 {
   background: #4bb92f;
   color: #fff;
   padding: 3px 10px;
   margin: 0 5px 0 0;
 }
-main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row a.post__category.cat__2 {
+main .section__grid .grid__container .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row a.post__category.cat__2 {
   background: #ff8700;
   color: #fff;
   padding: 3px 10px;
   margin: 0 5px 0 0;
 }
-main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row a.post__category.cat__3 {
+main .section__grid .grid__container .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row a.post__category.cat__3 {
   background: #0070ff;
   color: #fff;
   padding: 3px 10px;
   margin: 0 5px 0 0;
 }
-main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row a.post__category.cat__4 {
+main .section__grid .grid__container .grid__section-3 .row__section-3 .col__md-8 .col__md-12 .post__row a.post__category.cat__4 {
   background: #8d00ff;
   color: #fff;
   padding: 3px 10px;
   margin: 0 5px 0 0;
 }
-main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 {
+main .section__grid .grid__container .grid__section-3 .row__section-3 .col__md-4 {
   grid-column: 3/4;
 }
-main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .aside__widget.text__center {
+main .section__grid .grid__container .grid__section-3 .row__section-3 .col__md-4 .aside__widget.text__center {
   display: flex;
 }
-main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .aside__widget.text__center a img {
+main .section__grid .grid__container .grid__section-3 .row__section-3 .col__md-4 .aside__widget.text__center a img {
   width: 300px;
   height: 250px;
   margin-top: 20px;
 }
 @media (min-width: 320px) {
-  main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .aside__widget.text__center a img {
+  main .section__grid .grid__container .grid__section-3 .row__section-3 .col__md-4 .aside__widget.text__center a img {
     height: 271px;
   }
 }
-main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .section__title h2 {
+main .section__grid .grid__container .grid__section-3 .row__section-3 .col__md-4 .section__title h2 {
   font-size: 1.7rem;
   font-weight: 700;
   margin: 40px 0;
 }
-main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .category__widget ul {
+main .section__grid .grid__container .grid__section-3 .row__section-3 .col__md-4 .category__widget ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .category__widget ul li {
+main .section__grid .grid__container .grid__section-3 .row__section-3 .col__md-4 .category__widget ul li {
   position: relative;
   margin-bottom: 25px;
   padding-bottom: 10px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
-main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .category__widget ul li a {
+main .section__grid .grid__container .grid__section-3 .row__section-3 .col__md-4 .category__widget ul li a {
   width: 100%;
 }
-main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .category__widget ul li a span {
+main .section__grid .grid__container .grid__section-3 .row__section-3 .col__md-4 .category__widget ul li a span {
   position: absolute;
   right: 0;
   padding: 10px;
 }
-main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .category__widget ul li a.cat__1 span {
+main .section__grid .grid__container .grid__section-3 .row__section-3 .col__md-4 .category__widget ul li a.cat__1 span {
   background: #4bb92f;
   color: #fff;
   padding: 3px 10px;
   margin: 0 5px 0 0;
 }
-main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .category__widget ul li a.cat__2 span {
+main .section__grid .grid__container .grid__section-3 .row__section-3 .col__md-4 .category__widget ul li a.cat__2 span {
   background: #ff8700;
   color: #fff;
   padding: 3px 10px;
   margin: 0 5px 0 0;
 }
-main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .category__widget ul li a.cat__3 span {
+main .section__grid .grid__container .grid__section-3 .row__section-3 .col__md-4 .category__widget ul li a.cat__3 span {
   background: #0070ff;
   color: #fff;
   padding: 3px 10px;
   margin: 0 5px 0 0;
 }
-main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .category__widget ul li a.cat__4 span {
+main .section__grid .grid__container .grid__section-3 .row__section-3 .col__md-4 .category__widget ul li a.cat__4 span {
   background: #8d00ff;
   color: #fff;
   padding: 3px 10px;
   margin: 0 5px 0 0;
 }
-main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .aside__widget .tags__widget ul {
+main .section__grid .grid__container .grid__section-3 .row__section-3 .col__md-4 .aside__widget .tags__widget ul {
   margin: 0;
   padding: 0;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
 }
-main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .aside__widget .tags__widget ul li {
+main .section__grid .grid__container .grid__section-3 .row__section-3 .col__md-4 .aside__widget .tags__widget ul li {
   padding: 8px;
   margin-bottom: 10px;
 }
-main .grid__container .section__grid .grid__section-3 .row__section-3 .col__md-4 .aside__widget .tags__widget ul li a {
+main .section__grid .grid__container .grid__section-3 .row__section-3 .col__md-4 .aside__widget .tags__widget ul li a {
   background: #212631;
   color: #fff;
   padding: 5px;
