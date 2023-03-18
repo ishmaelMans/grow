@@ -33,7 +33,7 @@ header .nav .nav__fixed .nav__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: min(1170px, 100%);
+  width: min(1170px, 90%);
   height: 70px;
   position: relative;
   margin: 0 auto;
@@ -41,19 +41,19 @@ header .nav .nav__fixed .nav__container {
 }
 @media (min-width: 320px) {
   header .nav .nav__fixed .nav__container {
-    width: min(720px, 100%);
+    width: min(720px, 90%);
     margin: 0 auto;
   }
 }
 @media (min-width: 968px) {
   header .nav .nav__fixed .nav__container {
-    width: min(950px, 100%);
+    width: min(950px, 90%);
     margin: 0 auto;
   }
 }
 @media (min-width: 1200px) {
   header .nav .nav__fixed .nav__container {
-    width: min(1170px, 100%);
+    width: min(1170px, 90%);
     margin: 0 auto;
   }
 }
@@ -198,7 +198,7 @@ main {
   position: relative;
 }
 main .grid__container {
-  width: min(1170px, 100%);
+  width: min(1170px, 90%);
   margin: 0 auto;
   padding: 0 15px;
   line-height: 1.25;
@@ -206,13 +206,13 @@ main .grid__container {
 }
 @media (min-width: 320px) {
   main .grid__container {
-    width: min(720px, 100%);
+    width: min(720px, 90%);
     margin: 0 auto;
   }
 }
 @media (min-width: 968px) {
   main .grid__container {
-    width: min(950px, 100%);
+    width: min(950px, 90%);
     margin: 0 auto;
   }
 }
@@ -562,25 +562,25 @@ footer {
 }
 footer .grid__container {
   position: relative;
-  width: min(1170px, 100%);
+  width: min(1170px, 90%);
   margin: 0 auto;
   padding: 20px 15px;
 }
 @media (min-width: 320px) {
   footer .grid__container {
-    width: min(720px, 100%);
+    width: min(720px, 90%);
     margin: 0 auto;
   }
 }
 @media (min-width: 968px) {
   footer .grid__container {
-    width: min(950px, 100%);
+    width: min(950px, 90%);
     margin: 0 auto;
   }
 }
 @media (min-width: 1200px) {
   footer .grid__container {
-    width: min(1170px, 100%);
+    width: min(1170px, 90%);
     margin: 0 auto;
   }
 }
