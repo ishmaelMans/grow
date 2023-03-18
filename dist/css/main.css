@@ -375,6 +375,7 @@ main .section__grid .grid__container .grid__section-1 .row__2 .col__md-4 .post .
 @media (min-width: 968px) {
   main .section__grid .grid__container .grid__section-1 .row__3 .col__md-8 .col__md-12 {
     grid-column: 1/3;
+    margin-bottom: 50px;
   }
 }
 main .section__grid .grid__container .grid__section-1 .row__3 .col__md-8 .col__md-12 .post__thumb {
@@ -410,7 +411,7 @@ main .section__grid .grid__container .grid__section-1 .row__3 .col__md-8 .col__m
 }
 @media (min-width: 320px) {
   main .section__grid .grid__container .grid__section-1 .row__3 .col__md-8 .col__md-6 {
-    margin-bottom: 40px;
+    margin-bottom: 2em;
   }
 }
 @media (min-width: 968px) {
